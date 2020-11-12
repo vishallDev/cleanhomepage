@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WedDev Vishal| Front End Developer</title>
+    <link rel="stylesheet" href="./style.css">
+    
+  <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+<div class="maincontainer">
+    <div class="mobile">
+        <div class="tap" onclick="togglehide()"><h6 class="shake-slow shake-constant shake-constant--hover">Tap Anywhere to See Menu</h6></div>
+
+        <div class="slide1">
+            
+        <div class="viewmain animate delay02"><a href="" class="view5">I Am</a></div>
+        <div class="viewmain animate delay04"><a href="" class="view6">Vishal</a></div>
+        <div class="viewmain animate delay06"><a href="" class="view7">Front End</a></div>
+        <div class="viewmain animate delay08"><a href="" class="view8">Developer</a></div>
+    </div>
+    <div class="slide2">
+        
+        <div class="viewmain animate delay02"><a href="" class="view1"></a></div>
+        <div class="viewmain animate delay04"><a href="" class="view2"></a></div>
+        <div class="viewmain animate delay06"><a href="" class="view3"></a></div>
+        <div class="viewmain animate delay08"><a href="" class="view4"></a></div>
+    </div>
+    
+</div>
+
+
+
+
+
+<div class="smcont1 animate delay02 hmobile"><a href="" class="iam">
+
+</a></div>
+<div class="smcont2 animate delay04 hmobile"><a href="" class="name">
+
+</a></div>
+<div class="smcont3 animate delay06 hmobile"><a href="" class="prof">
+
+</a></div>
+<div class="smcont4 animate delay08 hmobile"><a href="" class="prof1">
+
+</a></div>
+
+
+</div>
+
+
+
+
+<script>
+
+// btn.addEventListener('click', ()=>{
+//     // if(slide1.style.display==='none'){
+//     //     slide2.style.display='block';
+//     // }else{
+//     //     slide2.style.display='none';
+//     //     slide1.style.display='block'
+
+//     // }
+//     slide1.classList.toggle('slide1')
+//     // slide2.classList.toggle.('slide2')
+
+// })
+// // document.querySelector('.slide1')
+
+
+function togglehide(){
+    let slide1=document.querySelector('.slide1')
+let slide2=document.querySelector('.slide2')
+let btn=document.querySelector('.click')
+if(slide1.style.display!='none' ){
+    slide1.style.display='none';
+    // slide2.style.display='block';
+
+}else{
+    slide1.style.display='block';
+    // slide2.style.display='none';
+}
+if(slide2.style.display!='block' ){
+    slide2.style.display='block';
+    // slide2.style.display='block';
+
+}else{
+    slide2.style.display='none';
+    // slide2.style.display='none';
+}
+
+}
+
+
+</script>
+</body>
+</html>
